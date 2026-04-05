@@ -1,0 +1,42 @@
+Confusion Matrix and Statistics
+
+          Reference
+Prediction edm latin pop r&b rap rock
+     edm   651    76 161  36  53   38
+     latin  43   329  99  78  77   21
+     pop   143   119 278  95  45   87
+     r&b    37   134 161 398 136   62
+     rap    52   124  58 185 588   17
+     rock   33    46 125  77  27  562
+
+Overall Statistics
+                                          
+               Accuracy : 0.5344          
+                 95% CI : (0.5208, 0.5479)
+    No Information Rate : 0.1826          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.4405          
+                                          
+ Mcnemar's Test P-Value : 1.096e-11       
+
+Statistics by Class:
+
+                     Class: edm Class: latin Class: pop Class: r&b Class: rap
+Sensitivity              0.6788      0.39734    0.31519     0.4580     0.6350
+Specificity              0.9152      0.92810    0.88808     0.8791     0.8992
+Pos Pred Value           0.6414      0.50850    0.36245     0.4289     0.5742
+Neg Pred Value           0.9273      0.89162    0.86530     0.8910     0.9200
+Prevalence               0.1826      0.15768    0.16797     0.1655     0.1763
+Detection Rate           0.1240      0.06265    0.05294     0.0758     0.1120
+Detection Prevalence     0.1933      0.12321    0.14607     0.1767     0.1950
+Balanced Accuracy        0.7970      0.66272    0.60163     0.6685     0.7671
+                     Class: rock
+Sensitivity               0.7141
+Specificity               0.9310
+Pos Pred Value            0.6460
+Neg Pred Value            0.9486
+Prevalence                0.1499
+Detection Rate            0.1070
+Detection Prevalence      0.1657
+Balanced Accuracy         0.8226
